@@ -6,8 +6,6 @@ import (
 
 func main() {
 	fmt.Println("hello world")
-	printFromPrint()
-	printFromPrint()
 
 	var p1 = Person{"john wick", 22}
 	fmt.Println(p1)
@@ -17,4 +15,5 @@ func main() {
 	reflectMain()
 	fmt.Println("===========================================")
 
+	routineMain()
 }
