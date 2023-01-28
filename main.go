@@ -16,4 +16,12 @@ func main() {
 	fmt.Println("===========================================")
 
 	routineMain()
+	fmt.Println("===========================================")
+	channelMain()
+
+	fmt.Println("===========================================")
+	bufferedChannelMain()
+
+	fmt.Println("===========================================")
+	selectChannelMain()
 }

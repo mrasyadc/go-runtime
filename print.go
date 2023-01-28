@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"runtime"
-	"time"
 )
 
 func print(till int, message string) {
@@ -13,14 +12,17 @@ func print(till int, message string) {
 }
 
 func routineMain() {
-	runtime.GOMAXPROCS(2)
+	// runtime.GOMAXPROCS(4)
+	fmt.Println("runtime cpu: ", runtime.NumCPU())
 
-	startTime := time.Now()
 	go print(100, "halo")
 	print(100, "apa kabar")
-	elapsed := time.Since(startTime)
-	fmt.Printf("Binomial took %s\n", elapsed)
+
+	// Karena pengiriman dan penerimaan data lewat channel bersifat blocking, tidak perlu memanfaatkan sifat blocking dari fungsi sejenis fmt.Scanln() atau lainnya, untuk mengantisipasi goroutine utama main selesai sebelum ketiga goroutine di atas selesai.
+
+	// oleh karena itu digunakan fmt.Scanln() yang blocking untuk mengantisipasi goroutine utama main selesai sebelum ini selesai
 
 	var input string
 	fmt.Scanln(&input)
+	fmt.Println(input)
 }
