@@ -24,4 +24,19 @@ func main() {
 
 	fmt.Println("===========================================")
 	selectChannelMain()
+
+	fmt.Println("===========================================")
+	rangeChannelMain()
+
+	fmt.Println("===========================================")
+	timeoutChannelMain()
+
+	fmt.Println("===========================================")
+	deferMain()
+
+	fmt.Println("===========================================")
+	pizzaDeferOrderMain()
+
+	fmt.Println("===========================================")
+	exitMain()
 }
