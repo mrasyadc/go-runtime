@@ -29,7 +29,7 @@ func main() {
 	rangeChannelMain()
 
 	fmt.Println("===========================================")
-	timeoutChannelMain()
+	// timeoutChannelMain()
 
 	fmt.Println("===========================================")
 	deferMain()
@@ -38,5 +38,9 @@ func main() {
 	pizzaDeferOrderMain()
 
 	fmt.Println("===========================================")
-	exitMain()
+	// exitMain()
+
+	fmt.Println("===========================================")
+	panicRecoverMain()
+
 }
