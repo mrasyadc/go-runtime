@@ -43,4 +43,7 @@ func main() {
 	fmt.Println("===========================================")
 	panicRecoverMain()
 
+	fmt.Println("===========================================")
+	formatStringMain()
+
 }
