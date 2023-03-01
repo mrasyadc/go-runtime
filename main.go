@@ -5,57 +5,59 @@ import (
 )
 
 func main() {
-	fmt.Println("hello world")
+	// fmt.Println("hello world")
 
-	var p1 = Person{"john wick", 22}
-	fmt.Println(p1)
-	p1.addAge()
-	fmt.Println(p1)
+	// var p1 = Person{"john wick", 22}
+	// fmt.Println(p1)
+	// p1.addAge()
+	// fmt.Println(p1)
 
-	reflectMain()
-	fmt.Println("===========================================")
+	// reflectMain()
+	// fmt.Println("===========================================")
 
-	routineMain()
-	fmt.Println("===========================================")
-	channelMain()
+	// routineMain()
+	// fmt.Println("===========================================")
+	// channelMain()
 
-	fmt.Println("===========================================")
-	bufferedChannelMain()
+	// fmt.Println("===========================================")
+	// bufferedChannelMain()
 
-	fmt.Println("===========================================")
-	selectChannelMain()
+	// fmt.Println("===========================================")
+	// selectChannelMain()
 
-	fmt.Println("===========================================")
-	rangeChannelMain()
+	// fmt.Println("===========================================")
+	// rangeChannelMain()
 
-	fmt.Println("===========================================")
-	// timeoutChannelMain()
+	// fmt.Println("===========================================")
+	// // timeoutChannelMain()
 
-	fmt.Println("===========================================")
-	deferMain()
+	// fmt.Println("===========================================")
+	// deferMain()
 
-	fmt.Println("===========================================")
-	pizzaDeferOrderMain()
+	// fmt.Println("===========================================")
+	// pizzaDeferOrderMain()
 
-	fmt.Println("===========================================")
-	// exitMain()
+	// fmt.Println("===========================================")
+	// // exitMain()
 
-	fmt.Println("===========================================")
-	panicRecoverMain()
+	// fmt.Println("===========================================")
+	// panicRecoverMain()
 
-	fmt.Println("===========================================")
-	formatStringMain()
+	// fmt.Println("===========================================")
+	// formatStringMain()
 	
-	fmt.Println("===========================================")
-	randomMain()
+	// fmt.Println("===========================================")
+	// randomMain()
+
+	// fmt.Println("===========================================")
+	// timeMain()
+
+	// fmt.Println("===========================================")
+	// // timerMain()
+
+	// fmt.Println("===========================================")
+	// timeDurationMain()
 
 	fmt.Println("===========================================")
-	timeMain()
-
-	fmt.Println("===========================================")
-	// timerMain()
-
-	fmt.Println("===========================================")
-	timeDurationMain()
-
+	conversionMain()
 }
