@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// fmt.Println("hello world")
@@ -45,7 +43,7 @@ func main() {
 
 	// fmt.Println("===========================================")
 	// formatStringMain()
-	
+
 	// fmt.Println("===========================================")
 	// randomMain()
 
@@ -58,6 +56,9 @@ func main() {
 	// fmt.Println("===========================================")
 	// timeDurationMain()
 
+	// fmt.Println("===========================================")
+	// conversionMain()
 	fmt.Println("===========================================")
-	conversionMain()
+	stringsMain()
+
 }
